@@ -5,7 +5,7 @@
   "bin": {
     "ingressos-cli": "./bin/run"
   },
-  "bugs": "https://github.com/Cliente/ingressos-cli/issues",
+  "bugs": "https://github.com/gustavohma/ingressos-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.12",
     "@oclif/config": "^1.12.12",
@@ -28,7 +28,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/Cliente/ingressos-cli",
+  "homepage": "https://github.com/gustavohma/ingressos-cli",
   "keywords": [
     "oclif"
   ],
@@ -41,7 +41,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "Cliente/ingressos-cli",
+  "repository": "gustavohma/ingressos-cli",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint .",

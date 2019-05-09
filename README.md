@@ -28,12 +28,34 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`ingressos-cli capa`](#ingressos-cli-capa)
 * [`ingressos-cli gerar`](#ingressos-cli-gerar)
 * [`ingressos-cli help [COMMAND]`](#ingressos-cli-help-command)
 
+## `ingressos-cli capa`
+
+Describe the command here
+
+```
+USAGE
+  $ ingressos-cli capa
+
+OPTIONS
+  -d, --digits=digits        Digits value
+  -e, --ending=ending        Ending value
+  -i, --increment=increment  Increment value
+  -p, --prefix=prefix        Prefix value: (Nº or Table)
+  -s, --starting=starting    Starting value
+
+DESCRIPTION
+  Extra documentation goes here
+```
+
+_See code: [src\commands\capa.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.3/src\commands\capa.js)_
+
 ## `ingressos-cli gerar`
 
-[35mCLI para gerar numeração de Ingressos para o Corel Draw[39m
+CLI to Generate Ticket Numbering for Corel Draw
 
 ```
 USAGE
@@ -43,12 +65,12 @@ OPTIONS
   -d, --digits=digits        Digits value
   -e, --ending=ending        Ending value
   -i, --increment=increment  Increment value
-  -p, --prefix=prefix        Prefix value: (Nº ou Mesa)
+  -p, --prefix=prefix        Prefix value: (Nº or Table)
   -r, --repeat=repeat        Repeat value
   -s, --starting=starting    Starting value
 
 DESCRIPTION
-  Criado por Gustavo Henrique
+  Created by Gustavo Henrique
 ```
 
 _See code: [src\commands\gerar.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.3/src\commands\gerar.js)_

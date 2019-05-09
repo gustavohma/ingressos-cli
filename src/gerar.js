@@ -1,6 +1,7 @@
 const fs = require('fs')
+const path = require('path')
 
-const homedir = require('os').homedir()
+const desktopdir = path.join(require('os').homedir(), 'Desktop')
 
 let parseFloatNull = (value, defaultValue) => {
 	if(value) {
@@ -10,8 +11,8 @@ let parseFloatNull = (value, defaultValue) => {
 	}
 }
 
-let saveFile = (text) => {
-	let path = homedir + '\\desktop\\Ingressos.txt'
+let saveFile = (text, filename) => {
+	let path = desktopdir + '\\' + filename + '.txt'
 
 	fs.writeFile(path, text, 'latin1', (err) => {  
 		if (err) throw err

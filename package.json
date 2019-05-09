@@ -1,6 +1,6 @@
 {
   "name": "ingressos-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Gustavo Henrique",
   "bin": {
     "ingressos-cli": "./bin/run"

@@ -19,7 +19,7 @@ $ npm install -g ingressos-cli
 $ ingressos-cli COMMAND
 running command...
 $ ingressos-cli (-v|--version|version)
-ingressos-cli/1.0.2 win32-x64 node-v10.15.3
+ingressos-cli/1.0.3 win32-x64 node-v10.15.3
 $ ingressos-cli --help [COMMAND]
 USAGE
   $ ingressos-cli COMMAND
@@ -51,7 +51,7 @@ DESCRIPTION
   Criado por Gustavo Henrique
 ```
 
-_See code: [src\commands\gerar.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.2/src\commands\gerar.js)_
+_See code: [src\commands\gerar.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.3/src\commands\gerar.js)_
 
 ## `ingressos-cli help [COMMAND]`
 

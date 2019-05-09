@@ -33,9 +33,8 @@ class GerarCommand extends Command {
   }
 }
 
-GerarCommand.description = `${chalk.magenta('CLI para gerar numeração de Ingressos para o Corel Draw')}
-${chalk.blue('Criado por Gustavo Henrique')}
-`
+GerarCommand.description = chalk.magenta('CLI para gerar numeração de Ingressos para o Corel Draw') + "\n"
+GerarCommand.description += chalk.blue('Criado por Gustavo Henrique') + "\n"
 
 GerarCommand.flags = {
   starting: flags.string({char: 's', description: 'Starting value'}),

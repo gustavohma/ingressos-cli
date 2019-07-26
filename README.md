@@ -19,7 +19,7 @@ $ npm install -g ingressos-cli
 $ ingressos-cli COMMAND
 running command...
 $ ingressos-cli (-v|--version|version)
-ingressos-cli/1.0.4 win32-x64 node-v10.15.3
+ingressos-cli/1.0.5 win32-x64 node-v10.15.3
 $ ingressos-cli --help [COMMAND]
 USAGE
   $ ingressos-cli COMMAND
@@ -51,7 +51,7 @@ DESCRIPTION
   Created by Gustavo Henrique
 ```
 
-_See code: [src\commands\capa.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.4/src\commands\capa.js)_
+_See code: [src\commands\capa.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.5/src\commands\capa.js)_
 
 ## `ingressos-cli gerar`
 
@@ -73,7 +73,7 @@ DESCRIPTION
   Created by Gustavo Henrique
 ```
 
-_See code: [src\commands\gerar.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.4/src\commands\gerar.js)_
+_See code: [src\commands\gerar.js](https://github.com/gustavohma/ingressos-cli/blob/v1.0.5/src\commands\gerar.js)_
 
 ## `ingressos-cli help [COMMAND]`
 
@@ -90,5 +90,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src\commands\help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.0/src\commands\help.ts)_
 <!-- commandsstop -->
